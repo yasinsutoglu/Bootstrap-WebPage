@@ -1,0 +1,31 @@
+
+
+.banner{
+    background-image: url(./img/banner.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-bottom: 20%;
+    padding-top: 15%;
+    color: purple;
+}
+
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.fa-code::before{
+    content:"\f121";
+
+}
+
+.fa-5x{
+    margin-top: 2.3rem;
+}
