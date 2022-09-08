@@ -1,4 +1,8 @@
-
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .banner{
     background-image: url(./img/banner.jpeg);
@@ -29,3 +33,20 @@
 .fa-5x{
     margin-top: 2.3rem;
 }
+
+.social{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+}
+
+.client .col img{
+    width:10rem;
+}
+
+
+
