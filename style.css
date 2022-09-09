@@ -4,15 +4,17 @@
     box-sizing: border-box;
 }
 
+.navbar{
+    background-color:#201D2E ;
+}
+
 .banner{
-    background-image: url(./img/banner.jpeg);
+    background-image: url(./img/sportsbanner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    padding-bottom: 20%;
-    padding-top: 15%;
-    color: purple;
+    color: #181d31;
 }
 
 .circle{
@@ -44,8 +46,29 @@
     line-height: 40px;
 }
 
+.social:hover{
+    color:red;
+}
+
 .client .col img{
     width:10rem;
+}
+
+.contact{
+    background-image: url("https://usercontent.one/wp/www.healthsporttech.com/wp-content/uploads/2020/06/Sports-tech.jpg?media=1655884192");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    text-align: center;
+}
+
+.portfolio img{
+    height: 15rem;
+}
+
+.back-card{
+    background-color: rgb(228, 226, 226) !important;
 }
 
 
